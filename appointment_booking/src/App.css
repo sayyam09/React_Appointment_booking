@@ -1,0 +1,348 @@
+.App {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  min-height: 100vh;
+}
+.heading{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(235, 116, 32);
+}
+.bar{
+  text-align: right;
+  padding: 30px;
+  margin: 0px;
+  background-color: #2f8ef4;
+  font-size: 23px;
+}
+a{
+  margin: 10px;
+  color: black;
+}
+a:hover{
+  color: blue;
+}
+.main-content2{
+  margin: 0 20px;
+  margin-bottom: 10%;
+  font-family: Arial, sans-serif;
+}
+
+.main-content1{
+  margin: 0 20px;
+  margin-bottom: 10%;
+  font-family: Arial, sans-serif;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #dc5ced;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+#title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-top:50px;
+}
+a{
+  text-decoration: none;
+  
+}
+.icon{
+  height: 20px;
+  width:20px;
+  padding: 0 5px;
+  margin:10px 0 0 0;
+}
+
+/*.form-content {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-top:80px;
+  height:500px;
+}
+
+.form-content .form-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+.form-control {
+  width: 80%;
+  padding: 13px;
+  border: 3px solid green;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top:30px;
+  cursor: pointer;
+}
+*/
+
+.form-content {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+  height:500px;
+  margin-top:80px;
+}
+
+.form-content .form-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 80%;
+  padding: 10px;
+  border: 3px solid green;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top:30px;
+  cursor: pointer;
+}
+select.form-control {
+  height: 38px;
+}
+
+.topics{
+  font-size:29px;
+  font-family:cursive;
+  color:rgb(193, 85, 99);
+padding-top:30px;
+  margin-right:1160px;
+}
+
+.container1{
+  width :73%;
+  margin-left:300px;
+  background-color: #e0b46c;
+  height:1000px;
+  border-radius: 5px;
+  border:5px solid rgb(65, 76, 190);
+}
+
+.form-content .form-group input[name="patientName"],
+.form-content .form-group input[name="doctorName"],
+.form-content .form-group input[name="time"] {
+  border: 3px solid green;
+  width: 80%;
+  cursor: pointer;
+}
+.container{
+  width :80%;
+  margin-left:200px;
+  height:500px;
+  border-radius: 5px;
+}
+.topics1{
+  font-size:29px;
+  font-family:cursive;
+  color:rgb(193, 85, 99);
+padding-top:30px;
+  margin-right:1100px;
+}
+
+.topics2{
+  font-size:29px;
+  font-family:cursive;
+  color:rgb(193, 85, 99);
+padding-top:30px;
+  margin-right:1000px;
+}
+.information{
+  text-align: justify;
+  font-size: 20px;
+  font-family: cursive;
+  margin-left:10px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+.btnSubmit {
+  grid-column: span 3;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top:60px;
+  width:20%;
+}
+
+.btnSubmit:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .form-content .form-row {
+    grid-template-columns: 1fr; 
+  }
+
+  .form-control {
+    width: 60%;
+  }
+
+
+  .btnSubmit {
+    grid-column: span 1; 
+  }
+}
+.about,.contact{
+  text-align: center;
+}
+.patientlist h2{
+  text-align: center;
+}
+.patient{
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+
+.patientlist {
+  margin: 20px 0;
+}
+
+
+.patient {
+  background-color: #50c285;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+
+
+.patient a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  width: 100%;
+}
+
+.patient a div{
+  margin: 0 10%;
+}
+
+.patient a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.btn{
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid black;
+  margin: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  width:100px;
+  padding:5px;
+  margin-bottom:20px;
+  font-size: 20px;
+
+}
+.patientdetails{
+background-color: #7cf4c2;
+
+}
+#heading_p_details{
+  margin-top:20px;
+  font-size:22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left:20px;
+  margin-bottom:20px;
+}
+.list_of_patient_details{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+
+
+/* CSS FOR CONTACT US PAGE */
+
+.main-content_contact {
+  text-align: center;
+  width:600px;
+  margin-top:140px;
+  margin-left:640px;
+}
+
+.contact {
+  background-color: #90afde;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-group_contact {
+  margin-bottom: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+.thank-you-message {
+  font-size: 18px;
+  color: #007bff;
+  margin-top: 20px;
+}
