@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React_Appointment_booking/static/css/main.57777388.css",
+    "main.js": "/React_Appointment_booking/static/js/main.354d6d9d.js",
+    "static/js/787.59a22794.chunk.js": "/React_Appointment_booking/static/js/787.59a22794.chunk.js",
+    "index.html": "/React_Appointment_booking/index.html",
+    "main.57777388.css.map": "/React_Appointment_booking/static/css/main.57777388.css.map",
+    "main.354d6d9d.js.map": "/React_Appointment_booking/static/js/main.354d6d9d.js.map",
+    "787.59a22794.chunk.js.map": "/React_Appointment_booking/static/js/787.59a22794.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57777388.css",
+    "static/js/main.354d6d9d.js"
+  ]
+}
